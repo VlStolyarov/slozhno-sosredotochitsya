@@ -1,0 +1,16 @@
+
+.section-gallery {
+  gap: 10px;
+}
+.gallery-list {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .gallery-list__item-img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    block-size: 100%;
+    inline-size: 100%;
+  }
