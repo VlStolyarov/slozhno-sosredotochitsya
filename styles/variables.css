@@ -1,4 +1,10 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root{
+    --font-family: "IBM Plex mono", sans-serif;
+    --background-photo: url(../images/cover-image.png);
+    --font-color: rgba(255, 0, 112, 1);
+    --background-color: rgba(0, 0, 40, 1);
+    --title-decor: rgba(255, 0, 112, 1);
+    --text__color: rgba(219, 0, 255, 1);    ;
+    --heading__color: rgba(0, 0, 40, 1);
+    --reply-description__color: rgba(255, 194, 230, 1);
+  }

@@ -1,0 +1,9 @@
+.page {
+    background-position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    margin: 0;
+    background-image: var(--background-photo);
+}
