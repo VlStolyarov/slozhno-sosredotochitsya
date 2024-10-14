@@ -4,9 +4,9 @@
     --font-color: rgba(255, 0, 112, 1);
     --background-color: rgba(0, 0, 40, 1);
     --title-decor: rgba(255, 0, 112, 1);
-    --text__color: rgba(219, 0, 255, 1);    ;
-    --heading__color: rgba(0, 0, 40, 1);
-    --reply-description__color: rgba(255, 194, 230, 1);
+    --text-color: rgba(219, 0, 255, 1);    ;
+    --heading-color: rgba(0, 0, 40, 1);
+    --reply-description-color: rgba(255, 194, 230, 1);
     --link-shadow: rgba(255, 0, 111, 0.8);
     --link-border: rgba(255, 194, 230, 1);
   }

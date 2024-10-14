@@ -9,6 +9,11 @@
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
+.row__reply-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
 .question__heading {
     font-size: 18px;
@@ -31,7 +36,7 @@
 
 .card-reply__heading {
     display: block;
-    color: var(--heading__color);
+    color: var(--heading-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -39,7 +44,7 @@
 }
 
 .card-reply__description {
-    color: var(--reply-description__color);
+    color: var(--reply-description-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -75,11 +80,6 @@
     justify-self: flex-start;
 }
 
-.row__reply-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
 .question-section--third{
     display: grid;
     margin-block-start: 80px;

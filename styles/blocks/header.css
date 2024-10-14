@@ -19,6 +19,7 @@
 }
 .header {
     align-items: start;
+    background-image: url(../../images/cover-image.png);
   }
   
   .header__theme-menu {
@@ -57,7 +58,7 @@
     align-self: flex-start;
     margin-inline-start: -20px;
     word-spacing: 0.2rem;
-    color: var(--text__color);
+    color: var(--text-color);
     text-shadow: 4px 4px 0px rgba(255, 0, 112, 1);
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-weight: 700;
@@ -66,7 +67,7 @@
 .page__description {
     align-self: center;
     justify-self: end;
-    color: var(--heading__color);
+    color: var(--heading-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 23.4px;

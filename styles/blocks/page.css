@@ -4,6 +4,8 @@
     background-size: cover;
     font-family: var(--font-family);
     color: var(--font-color);
-    margin: 0;
-    background-image: url(../images/cover-image.png);
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: rgba(0, 0, 40, 1);
+    ;
 }
