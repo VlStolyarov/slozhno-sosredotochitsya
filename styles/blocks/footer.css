@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+    min-height: 768px;
+    max-width: 1024px;
+    inline-size: 100%;
+}

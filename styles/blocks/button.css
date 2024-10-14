@@ -1,0 +1,25 @@
+.header__theme-menu-button {
+    border: 1px solid transparent;
+    padding: 2px 12px;
+    color: inherit;
+    line-height: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: lowercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+  .header__theme-menu-button_active {
+    pointer-events: none;
+    border: var(--border);
+  }
+  
+  .header__theme-menu-button:hover {
+    border: var(--border-hover);
+  }
+  
+  .header__theme-menu-button:focus-visible {
+    outline: none;
+    border-bottom: var(--border);
+  }

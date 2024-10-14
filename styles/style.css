@@ -1,7 +1,10 @@
 @import url("variables.css");
 
+@import url("blocks/rec.css");
 @import url("blocks/gallery.css");
 @import url("blocks/header.css");
+@import url("blocks/button.css");
 @import url("blocks/main.css");
 @import url("blocks/page.css");
+@import url("blocks/footer.css");
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */

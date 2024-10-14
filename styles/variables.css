@@ -9,4 +9,6 @@
     --reply-description-color: rgba(255, 194, 230, 1);
     --link-shadow: rgba(255, 0, 111, 0.8);
     --link-border: rgba(255, 194, 230, 1);
+    --border: 1px solid rgba(255, 0, 112, 1);
+    --border-hover: 1px solid rgba(255, 0, 112, 0.4);
   }
