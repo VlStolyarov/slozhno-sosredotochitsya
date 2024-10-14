@@ -5,5 +5,5 @@
     font-family: var(--font-family);
     color: var(--font-color);
     margin: 0;
-    background-image: var(--background-photo);
+    background-image: url(../images/cover-image.png);
 }
