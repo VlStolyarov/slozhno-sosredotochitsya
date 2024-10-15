@@ -7,4 +7,6 @@
 @import url("blocks/main.css");
 @import url("blocks/page.css");
 @import url("blocks/footer.css");
+@import url("dark.css");
+@import url("light.css");
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
