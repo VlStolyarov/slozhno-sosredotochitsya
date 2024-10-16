@@ -9,6 +9,7 @@
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
+
 .row__reply-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -81,9 +82,29 @@
     justify-self: flex-start;
 }
 
-.question-section--third{
+.question-section--third {
     display: grid;
     margin-block-start: 80px;
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
+
+@media (width >=768px) {
+
+    .main {
+        gap: 80px;
+        padding: 60px 20px;
+    }
+
+    .card-reply {
+        grid-column-start: 2;
+    }
+
+    .row__reply-container {
+        grid-template-rows: repeat(3, 1fr);  /* применяется правило, которое выше */
+    }
+
+    .question-section {
+        grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
+    }
+}  
