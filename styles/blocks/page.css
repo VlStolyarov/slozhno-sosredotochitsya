@@ -9,3 +9,9 @@
     background-color: rgba(0, 0, 40, 1);
     ;
 }
+
+@media (width >=375px) {
+    .page {
+        justify-content: center;
+    }
+}

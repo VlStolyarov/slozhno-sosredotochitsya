@@ -40,3 +40,9 @@
     grid-row-start: span 2;
   }
 }
+@media (width >=375px) {
+  .gallery-list {
+    display: flex;
+    flex-direction: column;
+  }
+}

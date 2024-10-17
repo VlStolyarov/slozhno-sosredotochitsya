@@ -8,3 +8,10 @@
     max-width: 1024px;
     inline-size: 100%;
 }
+
+@media (width >=375px) {
+    .footer {
+        min-block-size: 668px;
+        margin-block-start: 40px;
+    }
+}

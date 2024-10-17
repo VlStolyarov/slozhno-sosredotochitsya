@@ -79,3 +79,14 @@
     inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
   }
 }
+
+@media (width >=375px) {
+  .header {
+    padding: 10px;
+    min-block-size: 668px;
+  }
+}
+
+.page__heading {
+  margin-inline-start: -2px;
+}
