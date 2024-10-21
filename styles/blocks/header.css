@@ -57,7 +57,7 @@
   background-color: var(--title-decor);
 }
 
-@media (width >=768px) {
+@media (width <1024px) {
 
 
   .page__heading {
@@ -80,7 +80,7 @@
   }
 }
 
-@media (width >=375px) {
+@media (width <768px) {
   .header {
     padding: 10px;
     min-block-size: 668px;

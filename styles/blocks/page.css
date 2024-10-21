@@ -10,7 +10,7 @@
     ;
 }
 
-@media (width >=375px) {
+@media (width <768px) {
     .page {
         justify-content: center;
     }

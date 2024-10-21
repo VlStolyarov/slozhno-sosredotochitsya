@@ -13,7 +13,7 @@
 .row__reply-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    row-gap: 20px;
 }
 
 .question__heading {
@@ -70,8 +70,13 @@
     outline: 1px solid var(--action-border);
 }
 
+.question-section{
+padding:40px 0;
+}
+.question-section:first-of-type{
+    padding-top:60px;
+}
 .question-section--second {
-    margin-block-start: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -84,12 +89,11 @@
 
 .question-section--third {
     display: grid;
-    margin-block-start: 80px;
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
 
-@media (width >=768px) {
+@media (width <1024px) {
 
     .main {
         gap: 80px;
@@ -102,15 +106,20 @@
 
     .row__reply-container {
         grid-template-rows: repeat(3, 1fr);
-        /* применяется правило, которое выше */
+        grid-template-columns: auto;
     }
 
     .question-section {
         grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
+        display: grid;
     }
+    .question-section--second{
+         display: flex; /*вообще так делать не нужно */
+    }
+    
 }
 
-@media (width >=375px) {
+@media (width <768px) {
 
     .main {
         padding-inline-start: 10px;
@@ -120,5 +129,5 @@
     .question-section--first {
         max-block-size: 355px;
     }
-
+/* как отменить свойство для разрешения 1024????? */
 }
