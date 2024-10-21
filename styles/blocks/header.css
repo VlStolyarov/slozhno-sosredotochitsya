@@ -6,19 +6,28 @@
   position: relative;
   align-items: start;
   background-image: url(../../images/cover-image.png);
+  background-size: cover;
 }
 
-.decorated-zone::after,
-.decorated-zone::before {
+.header__rec{
   position: absolute;
-  content: "";
   top: 20px;
-  right: 20px;
+  right: 29px;
+  display: flex;
+  align-items: center;
+}
+.header__rec-text{
+position: relative;
+display: block;
+}
+.header__rec::after {
+  content: url(../../images/ellipse.svg);
+  display: block;
   inline-size: 25px;
   block-size: 25px;
   background-color: transparent;
-  border-top: var(--border-style);
-  border-right: var(--border-style);
+  border-top: var(--border);
+  border-right: var(--border);
 }
 
 .header__theme-menu {
