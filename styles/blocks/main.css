@@ -1,99 +1,10 @@
-/* Раскидать по БЭМ в отдельные папки + медиа запросы */
 
 .main {
     padding-inline-start: 20px;
     padding-inline-end: 20px;
 }
 
-.question-section--first {
-    margin-block-start: 60px;
-    display: grid;
-    grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
-    gap: 20px;
-}
 
-.row__reply-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-}
-
-.question__heading {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23.4px;
-}
-
-.articles-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card-reply {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.card-reply__heading {
-    display: block;
-    color: var(--heading-color);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23.4px;
-}
-
-.card-reply__description {
-    color: var(--reply-description-color);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23.4px;
-    margin-top: 10px;
-}
-
-.card-text-link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0px var(--link-shadow);
-}
-
-.link:hover {
-    border-bottom: 1px solid var(--link-border);
-}
-
-.link:focus {
-    outline: none;
-}
-
-.link:focus-visible {
-    outline: 1px solid var(--action-border);
-}
-
-.question-section{
-padding:40px 0;
-}
-.question-section:first-of-type{
-    padding-top:60px;
-}
-.question-section--second {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.second__question-heading {
-    inline-size: 30%;
-    justify-self: flex-start;
-}
-
-.question-section--third {
-    display: grid;
-    grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
-    gap: 20px;
-}
 
 @media (width <1024px) {
 
@@ -101,24 +12,6 @@ padding:40px 0;
         gap: 80px;
         padding: 60px 20px;
     }
-
-    .card-reply {
-        grid-column-start: 2;
-    }
-
-    .row__reply-container {
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: auto;
-    }
-
-    .question-section {
-        grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
-        display: grid;
-    }
-    .question-section--second{
-         display: flex; /*вообще так делать не нужно */
-    }
-    
 }
 
 @media (width <768px) {
@@ -127,9 +20,4 @@ padding:40px 0;
         padding-inline-start: 10px;
         padding-inline-end: 10px;
     }
-
-    .question-section--first {
-        max-block-size: 355px;
-    }
-/* как отменить свойство для разрешения 1024????? */
 }
