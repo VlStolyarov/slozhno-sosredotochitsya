@@ -16,7 +16,7 @@
 .header__rec{
   position: absolute;
   top: 20px;
-  right: 29px;
+  right: 48px;
   display: flex;
   align-items: center;
 }
@@ -24,16 +24,23 @@
 position: relative;
 display: block;
 }
-/* .header__rec::after {
+/* .header__rec::before{
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 48px;
+  content: "REC";
+} */
+/* .header__rec::before {
   content: url(../../images/ellipse.svg);
   display: block;
   inline-size: 25px;
   block-size: 25px;
   background-color: transparent;
   border-top: var(--border);
-  border-right: var(--border);
+  border-right: var(--border); 
 } */
-.header__rec-text::after {
+.header__rec-text::before {
   display: block;
   position: absolute;
   content: "";
