@@ -1,15 +1,15 @@
 @import url("variables.css");
 
-@import url("blocks/card-reply.css");
-@import url("blocks/link.css");
-@import url("blocks/question-section.css");
-@import url("blocks/articles-list.css");
 @import url("blocks/gallery.css");
-@import url("blocks/header.css");
+@import url("blocks/link.css");
+@import url("blocks/heading-decor.css");
+@import url("blocks/articles.css");
 @import url("blocks/button.css");
+@import url("blocks/card-reply.css");
+@import url("blocks/question-section.css");
 @import url("blocks/main.css");
-@import url("blocks/page.css");
+@import url("blocks/header.css");
 @import url("blocks/footer.css");
+@import url("blocks/page.css");
 @import url("dark.css");
 @import url("light.css");
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */

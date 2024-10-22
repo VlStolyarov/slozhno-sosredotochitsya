@@ -7,14 +7,19 @@
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
-
-.row__reply-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+.question-section--vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.question__heading {
+.question-section__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.question-section__heading {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -23,21 +28,17 @@
 .question-section:first-of-type{
     padding-top:60px;
 }
-.question-section--vertical {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
-.vertical__question-heading {
+.question-section__heading--vertical {
     inline-size: 30%;
     justify-self: flex-start;
 }
 
 @media (width <1024px) {
-    .row__reply-container {
+    .question-section__row {
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: auto;
+        column-gap: 0;
     }
 
     .question-section {

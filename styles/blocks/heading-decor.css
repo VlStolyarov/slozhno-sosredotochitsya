@@ -1,0 +1,7 @@
+.heading-decor {
+    background-color: var(--title-decor);
+  }
+  .heading-decor--narrow-text{
+    font-weight: 400;
+    background-color: var(--title-decor);
+  }
