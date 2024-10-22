@@ -34,9 +34,6 @@
     .page__focus-text-decoration{
         margin-inline-start: 0px;
       }
-    .page__heading {
-      font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    }
     .page__description {
         justify-self: end;
         inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
