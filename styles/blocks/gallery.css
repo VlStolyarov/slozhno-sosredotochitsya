@@ -46,6 +46,9 @@
   }
 }
 @media (width <768px) {
+  .section-gallery {
+  margin-block-start: 50px;
+  }
   .section-gallery__list {
     display: flex;
     flex-direction: column;

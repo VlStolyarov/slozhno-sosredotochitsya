@@ -81,7 +81,7 @@ display: block;
     flex-direction: column;
     gap: 10px;
     list-style-type: none;
-
+  }
 }
 
 @media (width <768px) {
@@ -93,6 +93,5 @@ display: block;
   margin-top: 75px;
   margin-left: 10px;
   justify-self: end;
-}
 }
 }

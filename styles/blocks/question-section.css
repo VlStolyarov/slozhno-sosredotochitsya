@@ -1,6 +1,6 @@
-.question-section{
+/* .question-section{
     padding: 40px 0;
-}
+} ЗАЧЕМ?? */
 .question-section--horizontal {
     margin-block-start: 60px;
     display: grid;
@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-block-start: 80px;
 }
 
 .question-section__row {
@@ -52,6 +53,11 @@
 @media (width <768px) {
 
     .question-section--horizontal {
-        max-block-size: 355px;
+        grid-template-columns: none;
+        grid-template-rows: 47px auto;
+        margin-block-start: 40px;
     }
+    .question-section--vertical {
+        margin-block-start: 50px;
+      }
 }
