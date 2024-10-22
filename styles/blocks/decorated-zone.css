@@ -1,0 +1,31 @@
+.decorated-zone{
+    position: relative;
+}
+.decorated-zone::before,
+.decorated-zone::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    background-color: transparent;
+    border-top-color: var(--border);
+    border-right-color: var(--border);
+    border-left-color: var(--border);
+    border-bottom-color: var(--border);
+    border-width: 0;
+}
+
+.decorated-zone::before{
+    right: 20px;
+    top: 20px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+.decorated-zone::after{
+    left: 20px;
+    bottom: 20px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}

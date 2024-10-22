@@ -6,7 +6,6 @@
 
 .page.theme_dark {
   --font-family: "IBM Plex mono", sans-serif;
-  background-image: url(../images/cover-image-dark.png);
   --font-color: rgba(255, 0, 112, 1);
   --background-color: rgba(0, 0, 40, 1);
   --title-decor: rgba(255, 0, 112, 1);
@@ -18,3 +17,18 @@
   --border: 1px solid rgba(255, 0, 112, 1);
   --border-hover: 1px solid rgba(255, 0, 112, 0.4);
 }
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --font-family: "IBM Plex mono", sans-serif;
+    --font-color: rgba(255, 0, 112, 1);
+    --background-color: rgba(0, 0, 40, 1);
+    --title-decor: rgba(255, 0, 112, 1);
+    --text-color: rgba(219, 0, 255, 1);    ;
+    --heading-color: rgba(0, 0, 40, 1);
+    --reply-description-color: rgba(255, 194, 230, 1);
+    --link-shadow: rgba(255, 0, 111, 0.8);
+    --link-border: rgba(255, 194, 230, 1);
+    --border: 1px solid rgba(255, 0, 112, 1);
+    --border-hover: 1px solid rgba(255, 0, 112, 0.4);
+  }
+} */
