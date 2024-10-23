@@ -1,4 +1,5 @@
 @import url("variables.css");
+@import url("globals.css");
 
 @import url("blocks/decorated-zone.css");
 @import url("blocks/gallery.css");

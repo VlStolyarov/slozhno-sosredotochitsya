@@ -11,4 +11,5 @@
     --link-border: rgba(255, 194, 230, 1);
     --border: 1px solid rgba(255, 0, 112, 1);
     --border-hover: 1px solid rgba(255, 0, 112, 0.4);
+    --display-rec: block;
   }

@@ -32,11 +32,11 @@
 
 @media (width <768px) {
     .decorated-zone::before {
-        left: 10px;
-        bottom: 10px;
-    }
-    .decorated-zone::after {
         right: 10px;
         top: 10px;
+    }
+    .decorated-zone::after {
+        left: 10px;
+        bottom: 10px;
     }
 }
