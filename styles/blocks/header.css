@@ -1,5 +1,8 @@
 .header {
   position: relative;
+  background-attachment: fixed;
+    background-size: cover;
+  background-image: var(--background-image);
 }
 .header__wrapper{
   width: 100%;
@@ -40,6 +43,7 @@
 
   .header {
     padding-inline-start: 0;
+    height: 1024px;
   }
 
   .header__theme-menu {
