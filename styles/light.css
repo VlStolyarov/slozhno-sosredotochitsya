@@ -19,20 +19,21 @@
   --border-hover: 1px solid rgba(50, 49, 45, 0.4);
   --display-rec: none;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --font-family: "IBM Plex mono", sans-serif;
-  --background-image: url(../../images/cover-image-light.png);
-  --font-color: rgba(53, 52, 48, 1);
-  --background-color: rgb(255, 241, 247);
-  --title-decor: rgba(255, 141, 203, 1);
-  --text-color: rgba(255, 194, 230, 1);
-  --heading-color: rgba(53, 52, 48, 1);
-  --reply-description-color: rgba(53, 52, 48, 1);
-  --link-shadow: rgba(255, 141, 203, 0.8);
-  --link-border: rgba(255, 194, 230, 1);
-  --border: 1px solid rgba(53, 52, 48, 1);
-  --border-hover: 1px solid rgba(50, 49, 45, 0.4);
-  --display-rec: none;
-}
+    --background-image: url(../../images/cover-image-light.png);
+    --font-color: rgba(53, 52, 48, 1);
+    --background-color: rgb(255, 241, 247);
+    --title-decor: rgba(255, 141, 203, 1);
+    --text-color: rgba(255, 194, 230, 1);
+    --heading-color: rgba(53, 52, 48, 1);
+    --reply-description-color: rgba(53, 52, 48, 1);
+    --link-shadow: rgba(255, 141, 203, 0.8);
+    --link-border: rgba(255, 194, 230, 1);
+    --border: 1px solid rgba(53, 52, 48, 1);
+    --border-hover: 1px solid rgba(50, 49, 45, 0.4);
+    --display-rec: none;
+  }
 }

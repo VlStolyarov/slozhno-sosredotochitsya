@@ -25,5 +25,5 @@
 @media (width <1024px) {
     .card-reply {
         grid-column-start: 2;
-    } 
+    }
 }

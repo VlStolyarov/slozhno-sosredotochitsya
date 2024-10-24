@@ -1,6 +1,7 @@
-.section-gallery{
+.section-gallery {
   padding-top: 80px;
 }
+
 .section-gallery__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -8,6 +9,7 @@
   list-style-type: none;
   margin-top: 20px;
 }
+
 .section-gallery__item-img {
   display: block;
   object-fit: cover;
@@ -43,10 +45,12 @@
     grid-row-start: span 2;
   }
 }
+
 @media (width <768px) {
   .section-gallery {
-  margin-block-start: 50px;
+    margin-block-start: 50px;
   }
+
   .section-gallery__list {
     display: flex;
     flex-direction: column;

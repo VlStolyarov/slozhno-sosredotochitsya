@@ -1,8 +1,9 @@
-.decorated-zone{
+.decorated-zone {
     position: relative;
 }
+
 .decorated-zone::before,
-.decorated-zone::after{
+.decorated-zone::after {
     position: absolute;
     display: block;
     content: "";
@@ -17,13 +18,14 @@
     border-width: 0;
 }
 
-.decorated-zone::before{
+.decorated-zone::before {
     right: 20px;
     top: 20px;
     border-right-width: 1px;
     border-top-width: 1px;
 }
-.decorated-zone::after{
+
+.decorated-zone::after {
     left: 20px;
     bottom: 20px;
     border-left-width: 1px;
@@ -35,6 +37,7 @@
         right: 10px;
         top: 10px;
     }
+
     .decorated-zone::after {
         left: 10px;
         bottom: 10px;
