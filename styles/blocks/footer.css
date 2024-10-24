@@ -8,7 +8,11 @@
     max-width: 1024px;
     inline-size: 100%;
 }
-
+@media (width <1024px){
+    .footer{
+        height: 1024px;
+    }
+}
 @media (width <768px) {
     .footer {
         min-block-size: 668px;
