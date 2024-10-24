@@ -47,12 +47,15 @@
 }
 
 @media (width <768px) {
-  .section-gallery {
-    margin-block-start: 50px;
-  }
 
+  .section-gallery{
+    padding-top: 50px;
+  }
   .section-gallery__list {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
   }
 }
