@@ -1,6 +1,6 @@
 :root{
     --font-family: "IBM Plex mono", sans-serif;
-    --background-photo: url(../images/cover-image.png);
+    --background-image: url(../../images/cover-image.png);
     --font-color: rgba(255, 0, 112, 1);
     --background-color: rgba(0, 0, 40, 1);
     --title-decor: rgba(255, 0, 112, 1);

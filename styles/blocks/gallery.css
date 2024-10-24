@@ -1,11 +1,12 @@
 .section-gallery{
-  padding-top: 40px;
+  padding-top: 80px;
 }
 .section-gallery__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   list-style-type: none;
+  margin-top: 20px;
 }
 .section-gallery__item-img {
   display: block;

@@ -5,8 +5,6 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  background-image: url(../../images/cover-image.png);
-  background-size: cover;
   min-block-size: 768px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
