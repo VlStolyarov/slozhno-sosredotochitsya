@@ -1,5 +1,12 @@
-.question-section--horizontal {
+.question-section {
+    margin-block-start: 80px;
+}
+
+.question-section:first-of-type {
     margin-block-start: 60px;
+}
+
+.question-section--horizontal {
     display: grid;
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
@@ -9,7 +16,6 @@
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 20px;
-    margin-block-start: 80px;
     grid-template-columns: repeat(3, 1fr);
     /* padding-bottom: 20px; */
 
