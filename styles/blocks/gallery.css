@@ -49,7 +49,7 @@
 @media (width <768px) {
 
   .section-gallery {
-    padding-top: 50px;
+    margin-block-start: 50px;
   }
 
   .section-gallery__list {
