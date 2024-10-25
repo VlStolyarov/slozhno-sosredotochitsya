@@ -31,14 +31,12 @@
 @media (width <1024px) {
 
   .page__description {
-    justify-self: end;
     inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
   }
 }
 
 @media (width <768px) {
   .page__description {
-    justify-self: center;
     inline-size: 100%;
   }
 

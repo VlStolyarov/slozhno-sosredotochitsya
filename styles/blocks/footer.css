@@ -13,7 +13,6 @@
 
 @media (width <768px) {
     .footer {
-        min-block-size: 668px;
         margin-block-start: 40px;
     }
 }
