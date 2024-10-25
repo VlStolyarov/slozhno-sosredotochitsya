@@ -11,7 +11,6 @@
 
 .page__focus-text-decoration {
   margin-inline-start: -20px;
-  /* word-spacing: 0.2rem; */
   color: var(--text-color);
   text-shadow: 4px 4px 0px rgba(255, 0, 112, 1);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -41,10 +40,6 @@
   .page__description {
     justify-self: center;
     inline-size: 100%;
-  }
-
-  .page__heading {
-    margin-inline-start: -2px;
   }
 
   .page__focus-text-decoration {

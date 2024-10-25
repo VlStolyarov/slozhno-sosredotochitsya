@@ -4,13 +4,14 @@
   background-size: cover;
   min-block-size: 668px;
   height: 100vh;
+  
 }
 
 .header__wrapper {
   width: 100%;
   height: 100%;
   padding: 20px;
-  min-block-size: 768px;
+  min-block-size: 668px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: start;
@@ -31,7 +32,6 @@
 }
 
 .header__theme-menu {
-
   justify-self: center;
 }
 
@@ -43,8 +43,6 @@
 }
 
 @media (width <1024px) {
-
-
   .header {
     padding-inline-start: 0;
   }

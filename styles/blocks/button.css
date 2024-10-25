@@ -1,8 +1,9 @@
 .header__theme-menu-button {
   border: 1px solid transparent;
-  padding: 0 13px 3px;
+  padding: 0 13px 5px;
   color: inherit;
   line-height: 18px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: lowercase;
   background-color: transparent;
