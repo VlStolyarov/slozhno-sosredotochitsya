@@ -2,7 +2,8 @@
   position: relative;
   background-attachment: fixed;
   background-size: cover;
-  background-image: var(--background-image);
+  min-block-size: 668px;
+  height: 100vh;
 }
 
 .header__wrapper {
@@ -46,7 +47,6 @@
 
   .header {
     padding-inline-start: 0;
-    height: 1024px;
   }
 
   .header__theme-menu {
@@ -67,7 +67,6 @@
 
   .header {
     padding-inline-start: 0;
-    height: 668px;
   }
 
   .header__wrapper {

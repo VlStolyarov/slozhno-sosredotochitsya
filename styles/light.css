@@ -14,7 +14,7 @@
   --heading-color: rgba(53, 52, 48, 1);
   --reply-description-color: rgba(53, 52, 48, 1);
   --link-shadow: rgba(255, 141, 203, 0.8);
-  --link-border: rgba(255, 194, 230, 1);
+  --link-border: rgba(53, 52, 48, 1);
   --border: 1px solid rgba(53, 52, 48, 1);
   --border-hover: 1px solid rgba(50, 49, 45, 0.4);
   --display-rec: none;
@@ -31,7 +31,7 @@
     --heading-color: rgba(53, 52, 48, 1);
     --reply-description-color: rgba(53, 52, 48, 1);
     --link-shadow: rgba(255, 141, 203, 0.8);
-    --link-border: rgba(255, 194, 230, 1);
+    --link-border: rgba(53, 52, 48, 1);
     --border: 1px solid rgba(53, 52, 48, 1);
     --border-hover: 1px solid rgba(50, 49, 45, 0.4);
     --display-rec: none;

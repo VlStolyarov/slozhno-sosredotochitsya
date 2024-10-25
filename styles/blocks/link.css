@@ -12,5 +12,5 @@
 }
 
 .link:focus-visible {
-    outline: 1px solid var(--action-border);
+    outline: 1px solid var(--link-border);
 }

@@ -5,12 +5,13 @@
   color: var(--font-color);
   margin: 0 auto;
   max-width: 1024px;
+  background-image: var(--background-image);
   background-color: var(--background-color);
 }
 
 .page__focus-text-decoration {
   margin-inline-start: -20px;
-  word-spacing: 0.2rem;
+  /* word-spacing: 0.2rem; */
   color: var(--text-color);
   text-shadow: 4px 4px 0px rgba(255, 0, 112, 1);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
