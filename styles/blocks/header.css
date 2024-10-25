@@ -31,7 +31,7 @@
 }
 
 .header__theme-menu {
-  
+
   justify-self: center;
 }
 
@@ -50,9 +50,8 @@
   }
 
   .header__theme-menu {
-    margin-top: 192px;
-    margin-left: 20px;
     justify-self: end;
+    align-self: center;
   }
 
   .header__theme-menu-list {
@@ -74,11 +73,6 @@
     min-block-size: 668px;
   }
 
-  .header__theme-menu {
-    margin-top: 75px;
-    margin-left: 10px;
-    justify-self: end;
-  }
 
   .header__rec {
     top: 10px;
