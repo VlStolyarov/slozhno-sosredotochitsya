@@ -10,7 +10,6 @@
 .header__wrapper {
   width: 100%;
   height: 100%;
-  padding: 20px;
   min-block-size: 668px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -33,6 +32,7 @@
 
 .header__theme-menu {
   justify-self: center;
+  margin-top: 20px;
 }
 
 .header__theme-menu-list {
@@ -42,7 +42,7 @@
 
 }
 .focus-text {
-  margin-inline-start: -20px;
+  /* margin-inline-start: -20px; */
   color: var(--text-color);
   text-shadow: 4px 4px 0px rgba(255, 0, 112, 1);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -56,7 +56,8 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  inline-size: 50%;
+  inline-size: 48%;
+  margin-right: 20px;
 }
 
 @media (width <1024px) {
@@ -67,6 +68,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
+    margin-right: 20px;
   }
 
   .header__theme-menu-list {
@@ -92,5 +94,9 @@
   .header__rec {
     top: 10px;
     right: 19px;
+  }
+  .header__theme-menu {
+    margin-block-start: initial;
+    margin-right: inherit;
   }
 }
