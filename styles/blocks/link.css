@@ -1,7 +1,3 @@
-.card-reply-link {
-    text-decoration: none;
-    text-shadow: 2px 2px 0px var(--link-shadow);
-}
 
 .link:hover {
     border-bottom: 1px solid var(--link-border);

@@ -21,6 +21,11 @@
     line-height: 23.4px;
 }
 
+.card-reply-link {
+    text-decoration: none;
+    text-shadow: 2px 2px 0px var(--link-shadow);
+}
+
 
 @media (width <1024px) {
     .card-reply {

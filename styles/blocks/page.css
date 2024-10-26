@@ -8,22 +8,3 @@
   background-image: var(--background-image);
   background-color: var(--background-color);
 }
-
-
-@media (width <1024px) {
-
-  .header__description {
-    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
-  }
-}
-
-@media (width <768px) {
-  .header__description {
-    inline-size: 100%;
-  }
-
-  .focus-text {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    margin-inline-start: inherit;
-  }
-}
