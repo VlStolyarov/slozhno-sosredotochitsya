@@ -6,13 +6,13 @@
     margin-block-start: 60px;
 }
 
-.question-section--horizontal {
+.section-content {
     display: grid;
     grid-template-columns: minmax(236px, 315px) minmax(472px, 649px);
     gap: 20px;
 }
 
-.question-section--vertical {
+.section_question {
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 20px;
@@ -78,11 +78,11 @@
             gap: 20px;
         }
     
-        .question-section--horizontal {
+        .section-content {
             grid-template-columns: none;
             grid-template-rows: min-content auto;
         }
-    .question-section--vertical {
+    .section_question {
         display: flex;
         flex-direction: column;
     }
