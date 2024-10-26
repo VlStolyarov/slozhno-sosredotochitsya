@@ -64,23 +64,24 @@
 @media (width <768px) {
 
     .question-section {
-            margin-block-start: 50px;
-        }
-    
-        .question-section:first-of-type {
-            margin-block-start: 40px;
-        }
-    
-        .question-section__row {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-    
-        .question-section--horizontal {
-            grid-template-columns: none;
-            grid-template-rows: min-content auto;
-        }
+        margin-block-start: 50px;
+    }
+
+    .question-section:first-of-type {
+        margin-block-start: 40px;
+    }
+
+    .question-section__row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .question-section--horizontal {
+        grid-template-columns: none;
+        grid-template-rows: min-content auto;
+    }
+
     .question-section--vertical {
         display: flex;
         flex-direction: column;

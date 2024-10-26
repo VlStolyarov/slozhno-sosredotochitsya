@@ -4,7 +4,7 @@
   background-size: cover;
   min-block-size: 668px;
   height: 100vh;
-  
+
 }
 
 .header__wrapper {
@@ -41,8 +41,9 @@
   gap: 10px;
 
 }
-.header__title{
- margin-inline-start: -20px; 
+
+.header__title {
+  margin-inline-start: -20px;
 }
 
 .header__description {
@@ -89,6 +90,7 @@
     top: 10px;
     right: 19px;
   }
+
   .header__theme-menu {
     margin-block-start: initial;
     margin-right: inherit;
