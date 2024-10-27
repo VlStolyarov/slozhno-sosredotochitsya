@@ -26,17 +26,18 @@
     text-shadow: 2px 2px 0px var(--link-shadow);
 }
 
-
 @media (width <1024px) {
     .card-reply {
         grid-column-start: 2;
     }
-    .card-reply--top{
+
+    .card-reply--top {
         line-height: 20.5px;
     }
 }
+
 @media (width <768px) {
-    .card-reply--top{
+    .card-reply--top {
         line-height: inherit;
     }
 }
