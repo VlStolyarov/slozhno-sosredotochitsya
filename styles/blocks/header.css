@@ -96,7 +96,6 @@
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     list-style-type: none;
   }
 
@@ -113,7 +112,7 @@
 
   .header__wrapper {
     padding: 10px;
-    min-block-size: 668px;
+
   }
 
 
@@ -126,9 +125,11 @@
     margin-block-start: initial;
     margin-right: inherit;
   }
+
   .header__title {
     margin-inline-start: auto;
   }
+
   .header__description {
     inline-size: 100%;
   }
