@@ -31,4 +31,12 @@
     .card-reply {
         grid-column-start: 2;
     }
+    .card-reply--top{
+        line-height: 20.5px;
+    }
+}
+@media (width <768px) {
+    .card-reply--top{
+        line-height: inherit;
+    }
 }

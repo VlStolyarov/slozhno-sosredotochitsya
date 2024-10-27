@@ -7,4 +7,5 @@
   max-width: 1024px;
   background-image: var(--background-image);
   background-color: var(--background-color);
+  background-position: center;
 }

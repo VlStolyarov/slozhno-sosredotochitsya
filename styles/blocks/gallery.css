@@ -32,30 +32,17 @@
     gap: 20px;
   }
 
-  .section-gallery__list {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  @media (width <768px) {
 
-  .section-gallery__item--vertical {
-    grid-column-start: span 2;
-  }
+    .section-gallery {
+      margin-block-start: 50px;
+    }
 
-  .section-gallery__item--horizontal {
-    grid-row-start: span 2;
-  }
-}
-
-@media (width <768px) {
-
-  .section-gallery {
-    margin-block-start: 50px;
-  }
-
-  .section-gallery__list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-
+    .section-gallery__list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
   }
 }

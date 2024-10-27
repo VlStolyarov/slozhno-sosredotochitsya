@@ -80,7 +80,7 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  inline-size: 48%;
+  inline-size: 50%;
 }
 
 @media (width <1024px) {
@@ -126,7 +126,9 @@
     margin-block-start: initial;
     margin-right: inherit;
   }
-
+  .header__title {
+    margin-inline-start: auto;
+  }
   .header__description {
     inline-size: 100%;
   }
