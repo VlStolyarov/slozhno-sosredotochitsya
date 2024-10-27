@@ -94,9 +94,7 @@
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: column;
-    list-style-type: none;
   }
 
   .header__description {
@@ -105,10 +103,6 @@
 }
 
 @media (width <768px) {
-
-  .header {
-    padding-inline-start: 0;
-  }
 
   .header__wrapper {
     padding: 10px;
